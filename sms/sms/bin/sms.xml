@@ -1,0 +1,1390 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sms
+</name>
+</assembly>
+<members>
+<member name="M:sms.Login.OpenConnection">
+	<summary>
+ Open database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Login.CloseConnection">
+	<summary>
+ close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Login.Error_Message(System.String)">
+	<summary>
+ Show Custom Error Message
+ </summary>
+	<param name="msg"></param>
+	<remarks></remarks>
+</member><member name="M:sms.Change_Password.OpenConnection">
+	<summary>
+ Open database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Change_Password.CloseConnection">
+	<summary>
+ close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Change_Password.Error_Message(System.String)">
+	<summary>
+ Show Error Message
+ </summary>
+	<param name="msg"></param>
+	<remarks></remarks>
+</member><member name="M:sms.Change_Password.Success_Msg(System.String)">
+	<summary>
+ Show Success Message
+ </summary>
+	<param name="msg"></param>
+	<remarks></remarks>
+</member><member name="M:sms.Department.Load_Grid">
+	<summary>
+ To load previous records and insert into Grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.ClearControl">
+	<summary>
+ Clear the all Controls fields
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+Store all the record in Database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+Clear all the fields and Enable Save ,Cancel button and False update Button
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.btnEdit_Delete_Command(System.Object,System.Web.UI.WebControls.CommandEventArgs)">
+	<summary>
+Edit and Deleted action Perform
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.btnUpdate_Click(System.Object,System.EventArgs)">
+	<summary>
+Click Update button Stored updated Records into Database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.OpenConnection">
+	<summary>
+ To establish database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Department.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Department.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.Subject.pnList">
+	<summary>
+pnList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.txtID">
+	<summary>
+txtID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.txtSubjectName">
+	<summary>
+txtSubjectName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.rfvSubjectName">
+	<summary>
+rfvSubjectName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.RevSubjectName">
+	<summary>
+RevSubjectName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.btnUpdate">
+	<summary>
+btnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.gvListview">
+	<summary>
+gvListview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Subject.hfValue">
+	<summary>
+hfValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:sms.MarkSheet.Load_Dept_Exam_year">
+	<summary>
+ Load department and ExamName And Exam Year
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.btnShow_Click(System.Object,System.EventArgs)">
+	<summary>
+ display the Student marks 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.gvStudentMark_RowCreated(System.Object,System.Web.UI.WebControls.GridViewRowEventArgs)">
+	<summary>
+ show the marks in grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.gvStudentMark_RowDataBound(System.Object,System.Web.UI.WebControls.GridViewRowEventArgs)">
+	<summary>
+ Diplay Mark in Grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.OpenConnection">
+	<summary>
+ To establish database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.MarkSheet.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.txtUsername">
+	<summary>
+txtUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.RfvUserName">
+	<summary>
+RfvUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.RfvPassword">
+	<summary>
+RfvPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.imgCaptcha">
+	<summary>
+imgCaptcha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.txtCaptcha">
+	<summary>
+txtCaptcha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.RfvCaptch">
+	<summary>
+RfvCaptch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:sms.Mark_Entry.Load_Dept_Exam">
+	<summary>
+ Load all Department name And Exam Name
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.btnShow_Click(System.Object,System.EventArgs)">
+	<summary>
+ List all the Student name and therie Subjects
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.gvStudentMark_RowCreated(System.Object,System.Web.UI.WebControls.GridViewRowEventArgs)">
+	<summary>
+ Get Student mark
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.gvStudentMark_RowDataBound(System.Object,System.Web.UI.WebControls.GridViewRowEventArgs)">
+	<summary>
+ show the mark details in grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ To save all details
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.OpenConnection">
+	<summary>
+ To establish database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Mark_Entry.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clear all controls
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.Load_Grid">
+	<summary>
+ Load All Subject Details From Db
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.ClearControl">
+	<summary>
+ clear all the controls 
+ </summary>
+	<remarks>text box id shows text as auto</remarks>
+</member><member name="M:sms.Subject.OpenConnection">
+	<summary>
+ To Establish Database Connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Subject.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.MarkSheet.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.ddlExamyear">
+	<summary>
+ddlExamyear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.RfvExamYear">
+	<summary>
+RfvExamYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.ddlDepartment">
+	<summary>
+ddlDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.ReqDepartmentName">
+	<summary>
+ReqDepartmentName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.ddlExamName">
+	<summary>
+ddlExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.ReqExamName">
+	<summary>
+ReqExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.btnsubmit">
+	<summary>
+btnsubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.MarkSheet.gvStudentMark">
+	<summary>
+gvStudentMark control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:sms.Registration.Load_Grid">
+	<summary>
+ To load previous records and insert into Grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.ClearControl">
+	<summary>
+ Clear the all Controls fields
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.Load_Department">
+	<summary>
+ List All Department Name in DropDown list 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.OpenConnection">
+	<summary>
+ To establish database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.CloseConnection">
+	<summary>
+ Disconnect  the DB Connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Registration.Success_Message(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.Department_Efficiency.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.ddlExamName">
+	<summary>
+ddlExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.RfvExamName">
+	<summary>
+RfvExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.ddlExamyear">
+	<summary>
+ddlExamyear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.RfvExamYear">
+	<summary>
+RfvExamYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department_Efficiency.gvListview">
+	<summary>
+gvListview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:sms.Department_Efficiency.Load_Examyear_ExamName">
+	<summary>
+ Load all Exam name and Exam year
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.btnsubmit_save(System.Object,System.EventArgs)">
+	<summary>
+ fetch relevant information from controls details
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.OpenConnection">
+	<summary>
+  Establish db connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Department_Efficiency.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.Sub_Dept_Mapping.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Sub_Dept_Mapping.ddlDepartmentName">
+	<summary>
+ddlDepartmentName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Sub_Dept_Mapping.RvfDepartmentName">
+	<summary>
+RvfDepartmentName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Sub_Dept_Mapping.CblSubjectList">
+	<summary>
+CblSubjectList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Sub_Dept_Mapping.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:sms.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:sms.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:sms.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:sms.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:sms.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:sms.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.CreateItemTemplate.hfSubID_DataBinding(System.Object,System.EventArgs)">
+	<summary>
+ This is the event, which will be raised when the binding happens.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:sms.CreateItemTemplate.hfMarkDetailSlno_DataBinding(System.Object,System.EventArgs)">
+	<summary>
+ This is the event, which will be raised when the binding happens.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="M:sms.CreateItemTemplate.txtSubMark_DataBinding(System.Object,System.EventArgs)">
+	<summary>
+ This is the event, which will be raised when the binding happens.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+</member><member name="F:sms.Logout.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.Load_Department">
+	<summary>
+ Load All the Department in Dropdown list
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.Load_Subject">
+	<summary>
+ Load All The Subject
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ Subjects Mapped to Department
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.ddlDepartmentName_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+ Based on Department Select Subject Load
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.OpenConnection">
+	<summary>
+ To establish database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.CloseConnection">
+	<summary>
+ Close database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.Error_Message(System.String)">
+	<summary>
+ Error message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.Warning_Message(System.String)">
+	<summary>
+ Warning Message Return
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="M:sms.Sub_Dept_Mapping.Success_Msg(System.String)">
+	<summary>
+ Success Message
+ </summary>
+	<param name="msg">String</param>
+	<remarks></remarks>
+</member><member name="F:sms.Registration.pnList">
+	<summary>
+pnList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.btnAddNew">
+	<summary>
+btnAddNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.gvListview">
+	<summary>
+gvListview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtID">
+	<summary>
+txtID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvName">
+	<summary>
+rfvName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.revname">
+	<summary>
+revname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.lblDob">
+	<summary>
+lblDob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtDob">
+	<summary>
+txtDob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.revDob">
+	<summary>
+revDob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rvfDob">
+	<summary>
+rvfDob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rdMale">
+	<summary>
+rdMale control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rdFemale">
+	<summary>
+rdFemale control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.ddlCaste">
+	<summary>
+ddlCaste control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvddlcaste">
+	<summary>
+rfvddlcaste control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.ddlDepartment">
+	<summary>
+ddlDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvdepartment">
+	<summary>
+rfvdepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtMobile">
+	<summary>
+txtMobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.revmobile">
+	<summary>
+revmobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvmobile">
+	<summary>
+rfvmobile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtDoj">
+	<summary>
+txtDoj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvdoj">
+	<summary>
+rfvdoj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.ddlBloodGroup">
+	<summary>
+ddlBloodGroup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvBloodGroup">
+	<summary>
+rfvBloodGroup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.TxtFatherName">
+	<summary>
+TxtFatherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.RfvtxtFatherName">
+	<summary>
+RfvtxtFatherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.RevFatherName">
+	<summary>
+RevFatherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.TxtMotherName">
+	<summary>
+TxtMotherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.RfvMotherName">
+	<summary>
+RfvMotherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.RevMotherName">
+	<summary>
+RevMotherName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.ddlBoarding">
+	<summary>
+ddlBoarding control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rvfddlBoarding">
+	<summary>
+rvfddlBoarding control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.txtAddress">
+	<summary>
+txtAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.rfvAddress">
+	<summary>
+rfvAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.btnUpdate">
+	<summary>
+btnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Registration.hfValue">
+	<summary>
+hfValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Template.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Template.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Template.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Template.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Change_Password.txtOldPassword">
+	<summary>
+txtOldPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Change_Password.txtNewPassword">
+	<summary>
+txtNewPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Change_Password.txtConfirmPassword">
+	<summary>
+txtConfirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Change_Password.CVchangepwd">
+	<summary>
+CVchangepwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Change_Password.btnChangePwd">
+	<summary>
+btnChangePwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.pnList">
+	<summary>
+pnList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.txtDeptID">
+	<summary>
+txtDeptID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.txtDeptName">
+	<summary>
+txtDeptName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.rfvDeptName">
+	<summary>
+rfvDeptName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.ddlAgeLimit">
+	<summary>
+ddlAgeLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.RfvAgeLimit">
+	<summary>
+RfvAgeLimit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.btnUpdate">
+	<summary>
+btnUpdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.pnEntry">
+	<summary>
+pnEntry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.gvListview">
+	<summary>
+gvListview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Department.hfValue">
+	<summary>
+hfValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:sms.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sms.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:sms.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:sms.Gen_Captcha.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.pnAlert">
+	<summary>
+pnAlert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.txtExamYear">
+	<summary>
+txtExamYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.RfvExamYear">
+	<summary>
+RfvExamYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.revExamYear">
+	<summary>
+revExamYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.ddlDepartment">
+	<summary>
+ddlDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.rfvDepartment">
+	<summary>
+rfvDepartment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.ddlExamName">
+	<summary>
+ddlExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.rfvExamName">
+	<summary>
+rfvExamName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.btnShow">
+	<summary>
+btnShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sms.Mark_Entry.gvStudentMark">
+	<summary>
+gvStudentMark control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
